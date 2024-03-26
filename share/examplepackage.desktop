@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.0.0
+Type=Application
+Terminal=false
+Exec=/usr/local/bin/examplepackage
+Name=examplepackage
+Icon=/usr/local/share/examplepackage/examplepackage.png
+Categories=Development

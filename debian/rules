@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+  dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_usrlocal:
+  echo "Override dh_usrlocal"
+
+override_dh_auto_install:
+  export SETUPTOOLS_USE_DISTUTILS=stdlib && dh_auto_install

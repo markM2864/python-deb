@@ -1,0 +1,2 @@
+usr/local/share/examplepackage/examplepackage.desktop usr/share/applications/examplepackage.desktop
+usr/local/share/examplepackage/local.examplepackage.policy usr/share/polkit-1/actions/local.examplepackage.policy

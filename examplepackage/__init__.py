@@ -1,0 +1,1 @@
+from .examplepackage import main

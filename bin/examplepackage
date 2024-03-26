@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if test "x` id -u`" != "x0"; then
+  xhost local:root
+  pkexec --disable-internal-agent '/usr/local/bin/examplepackage' "$@"
+  status=$?
+  xhost -local:root
+
+  exit $status
+fi
+
+/usr/local/bin/examplepackage-run.py $@
